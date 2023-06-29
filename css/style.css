@@ -52,6 +52,34 @@ img {
   margin-right: 0;
 }
 
+.vegetables {
+}
+.container {
+}
+.vegetables-title {
+}
+.vegetables-sub-title {
+}
+.vegetables-card {
+}
+.list {
+}
+.vegetables-item {
+}
+.vegetables-link {
+}
+.link {
+}
+.card-title {
+}
+.card-label {
+}
+.card-price {
+}
+.vegetables-btn {
+}
+.vegetables-icon {
+}
 @media screen and (min-width: 375px) {
   .container {
     max-width: 428px;
