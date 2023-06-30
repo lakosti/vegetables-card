@@ -90,7 +90,7 @@ img {
   max-width: 335px;
   max-height: 443px;
   background-color: #eaf7e5;
-  padding: 20px;
+  padding: 40px 18px 20px 20px;
   border-radius: 20px;
 }
 .vegetables-link {
@@ -167,11 +167,59 @@ img {
     padding-right: 32px;
     margin: 0 auto;
   }
+  .vegetables-sub-title {
+    max-width: 562px;
+    /* max-width: 386px; */
+  }
+  .vegetables-card {
+    margin-bottom: 40px;
+  }
+  .vegetables-item {
+    max-width: 342px;
+    max-height: 465px;
+    padding: 64px 10px 24px 24px;
+  }
+  .vegetables-btn {
+    width: 114px;
+    height: 114px;
+  }
+  .card-title {
+    font-size: 28px;
+    line-height: 1.14;
+    letter-spacing: -1.12px;
+  }
+  .card-btn-text {
+    font-size: 18px;
+    line-height: 1.33;
+    letter-spacing: -0.72px;
+  }
+  .card-label {
+    font-size: 18px;
+    line-height: 1.33;
+    letter-spacing: -0.36px;
+  }
+  .card-price {
+    font-size: 18px;
+    line-height: 1.33;
+    letter-spacing: -0.72px;
+  }
 }
 @media screen and (min-width: 1280px) {
   .container {
     max-width: 1280px;
     margin: 0 auto;
+  }
+  .vegetables-card {
+    gap: 24px;
+  }
+  .vegetables-item {
+    max-width: 389px;
+    padding: 64px 34px 24px 34px;
+  }
+  .card-title {
+    font-size: 32px;
+    line-height: 1.19;
+    letter-spacing: -1.28px;
   }
   .only-desk {
     display: block;
