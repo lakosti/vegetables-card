@@ -87,6 +87,9 @@ img {
   margin-bottom: 20px;
 }
 .vegetables-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
   max-width: 335px;
   max-height: 443px;
   background-color: #eaf7e5;
@@ -115,9 +118,6 @@ img {
   letter-spacing: -0.28px;
 }
 .card-price {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
   color: #141414;
   font-size: 14px;
   font-family: DM Sans;
