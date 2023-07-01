@@ -106,7 +106,6 @@ img {
   letter-spacing: -0.96px;
 }
 .card-label {
-  margin-bottom: 40px;
   color: #141414;
   font-size: 14px;
   font-family: DM Sans;
@@ -116,6 +115,9 @@ img {
   letter-spacing: -0.28px;
 }
 .card-price {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
   color: #141414;
   font-size: 14px;
   font-family: DM Sans;
