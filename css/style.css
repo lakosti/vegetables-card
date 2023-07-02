@@ -173,8 +173,8 @@ img {
     margin-bottom: 40px;
   }
   .vegetables-item {
-    /* max-width: 342px; */
-    width: 342px;
+    max-width: 342px;
+    /* width: 342px; */
     max-height: 465px;
     padding: 64px 10px 24px 24px;
   }
